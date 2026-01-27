@@ -1,0 +1,16 @@
+# Check what files Git sees
+git status
+# Should show: organize.cpp, README.md, .gitignore in red
+
+# Stage files (prepare to save)
+git add organize.cpp README.md .gitignore
+
+# Check again
+git status
+# Should show files in green
+
+# Commit (save snapshot)
+git commit -m "UFCD 10795: Sistema login seguro completo"
+utilizadores.txt
+*.exe
+*.o
